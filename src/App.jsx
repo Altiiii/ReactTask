@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-        <h2 className='text-green-700'>Tailwind commit</h2>
+        <h2 className='text-green-700'>Testing Git With Jira</h2>
+        
     </>
   )
 }
