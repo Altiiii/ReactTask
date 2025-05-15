@@ -1,6 +1,7 @@
 
 import './App.css'
 import Header from './components/Header'
+import Sidebar from './components/Sidebar'
 
 function App() {
 
@@ -8,8 +9,7 @@ function App() {
   return (
     <>
       <Header />
-        <h2 className='text-green-700'>Testing Git With Jira</h2>
-        
+      <Sidebar />        
     </>
   )
 }
