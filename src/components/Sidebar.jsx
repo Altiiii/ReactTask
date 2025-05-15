@@ -1,6 +1,6 @@
 export default function Sidebar() {
     return(
-        <div className=" fixed top-0 left-0 h-full mt-16 bg-gray-800 text-white flex flex-col p-4 transition-all duration-300 shadow-lg w-64">
+        <div className=" flex  mt-16 bg-gray-800 text-white  flex-col p-4 transition-all duration-300 shadow-lg w-64">
 
         <nav className="flex flex-col gap-4">
             <a href="/" className="hover:bg-gray-700 p-3 rounded flex items-center gap-2" >
