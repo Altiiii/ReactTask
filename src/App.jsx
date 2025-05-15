@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className='flex'>
+ 
       <Sidebar /> 
-      <main className='overflow-y-auto p-4 sm:p-6 flex-1 mt-16'>
+      <main className='ml-64 overflow-y-auto p-4 sm:p-6 flex-1 mt-16'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
           {transactions.map((tr,index) =>(
             <Transactions 
@@ -26,7 +26,7 @@ function App() {
           ))}
         </div>
         </main>       
-      </div>
+    
     </>
   )
 }
